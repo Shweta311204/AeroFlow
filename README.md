@@ -83,47 +83,6 @@ javac -version
 
 ---
 
-## 💻 GitHub Codespaces Setup (IMPORTANT)
-
-Codespaces may not use Java 17 by default.
-
-### ✅ Step 1: Check version
-
-```bash
-java -version
-```
-
----
-
-### ❌ If NOT Java 17 → Install it
-
-```bash
-sudo apt update
-sudo apt install openjdk-17-jdk -y
-```
-
----
-
-### 🔄 Step 2: Set Java 17 as default
-
-```bash
-sudo update-alternatives --config java
-sudo update-alternatives --config javac
-```
-
-Select Java 17.
-
----
-
-### ✅ Step 3: Verify
-
-```bash
-java -version
-javac -version
-```
-
----
-
 ## 🚀 How to Run
 
 ### Windows / Mac / Linux
