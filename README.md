@@ -19,13 +19,23 @@ A polished desktop application for managing airline flight schedules — built e
 ```
 AeroFlow/
 │
-└── src/
-    ├── AeroFlowApp.java
-    ├── Flight.java
-    ├── FlightTableModel.java
-    ├── FlightComparators.java
-    ├── AddFlightDialog.java
-    └── FilterDialog.java
+├── src/
+│   ├── DBConnection.java
+│   ├── Flight.java
+│   ├── FlightDAO.java
+│   └── FlightServlet.java
+│
+├── web/
+│   ├── index.jsp
+│   ├── add-flight.jsp
+│   ├── filter.jsp
+│   │
+│   └── WEB-INF/
+│       └── web.xml
+│
+├── database.sql
+│
+└── README.md
 ```
 
 ---
